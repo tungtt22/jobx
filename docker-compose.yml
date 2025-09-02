@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  jobx:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    working_dir: /app
+    restart: unless-stopped

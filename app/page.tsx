@@ -40,7 +40,7 @@ export default function Home() {
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
-    let filtered = mockJobs.filter((job) => {
+    const filtered = mockJobs.filter((job) => {
       const matchTitle = job.title.toLowerCase().includes(search.toLowerCase());
       const matchLocation = location
         ? job.location.toLowerCase().includes(location.toLowerCase())

@@ -1,9 +1,11 @@
-export interface User {
+export interface Job {
   id: string;
-  name: string;
-  email: string;
-  role: 'user' | 'admin';
+  title: string;
+  company: string;
+  location: string;
+  description: string;
   createdAt: Date;
+  updatedAt: Date;
 }
 
 export interface ApiResponse<T> {
@@ -15,6 +17,5 @@ export interface ApiResponse<T> {
 export interface PaginationParams {
   page: number;
   limit: number;
-  totalPages: number;
-  totalItems: number;
+  total: number;
 }

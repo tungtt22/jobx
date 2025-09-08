@@ -1,40 +1,66 @@
-# Introduction
-This is the tool using to find freeland jobs
+# JobX
 
-# Development
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+A job portal application built with Next.js and MongoDB.
 
-## Getting Started
+## MongoDB Setup
 
-First, run the development server:
+1. Create a `.env.local` file in the root directory
+2. Add your MongoDB connection string:
+   ```
+   MONGODB_URI=mongodb://localhost:27017/jobx
+   ```
+   For production, use MongoDB Atlas connection string:
+   ```
+   MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/jobx?retryWrites=true&w=majority
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Development
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## Database Structure
 
-To learn more about Next.js, take a look at the following resources:
+### Collections
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. `jobs`
+   - `_id`: ObjectId
+   - `title`: string
+   - `company`: string
+   - `location`: string
+   - `description`: string
+   - `createdAt`: Date
+   - `updatedAt`: Date
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2. `users`
+   - `_id`: ObjectId
+   - `email`: string (unique)
+   - `name`: string
+   - `createdAt`: Date
+   - `updatedAt`: Date
 
-## Deploy on Vercel
+### Indexes
+- Jobs collection has text indexes on title, company, and description
+- Users collection has a unique index on email
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## API Routes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Jobs
+- `GET /api/jobs` - Get all jobs (supports pagination and search)
+- `POST /api/jobs` - Create a new job
+- `PUT /api/jobs/:id` - Update a job
+- `DELETE /api/jobs/:id` - Delete a job
+
+### Users
+- `GET /api/users/me` - Get current user
+- `POST /api/auth/register` - Register new user
+- `POST /api/auth/login` - Login user

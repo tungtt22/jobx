@@ -1,13 +1,13 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
-import Navbar from './components/layout/Navbar';
+import Sidebar from './components/layout/Sidebar';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'JobX - Job Portal',
-  description: 'Find your next job opportunity',
+  title: 'JobX - Job Search Aggregator',
+  description: 'Find your next remote job opportunity',
 };
 
 export default function RootLayout({
@@ -18,10 +18,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
-        <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          {children}
-        </main>
+        <div className="flex h-screen bg-gray-50">
+          <Sidebar />
+          <main className="flex-1 ml-64 p-8">
+            {children}
+          </main>
+        </div>
       </body>
     </html>
   );

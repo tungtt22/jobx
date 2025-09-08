@@ -1,0 +1,26 @@
+{
+  "tokens": {},
+  "defaultFilters": {
+    "categories": [
+      "DevSecOps",
+      "DevOps",
+      "SRE"
+    ],
+    "regions": [
+      "APAC",
+      "EU"
+    ]
+  },
+  "notifications": {
+    "desktop": true,
+    "email": false
+  },
+  "jobPreferences": {
+    "currency": "USD",
+    "contractTypes": [
+      "remote",
+      "contract"
+    ],
+    "remoteOnly": true
+  }
+}

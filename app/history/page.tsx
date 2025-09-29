@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { Job } from '@/app/types/job';
-import JobCard from '@/app/components/jobs/JobCard';
+import JobCard from '@/app/components/JobCard';
 
 export default function HistoryPage() {
   const [jobs, setJobs] = useState<Job[]>([]);

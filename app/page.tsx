@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from 'react';
 import Header from './components/layout/Header';
-import JobCard from './components/jobs/JobCard';
-import JobFilters from './components/jobs/JobFilters';
+import JobCard from './components/JobCard';
+import JobFilters from './components/JobFilters';
 import { Job, JobSearchFilters } from './types/job';
 
 export default function HomePage() {

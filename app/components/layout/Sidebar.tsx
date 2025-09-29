@@ -23,7 +23,7 @@ export default function Sidebar() {
   return (
     <aside className="w-64 bg-white border-r border-gray-200 h-screen fixed">
       <div className="p-6 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-gray-900">JobX</h1>
+        <h1 className="text-2xl font-bold text-gray-900">JobX.vn</h1>
         <NotificationBell />
       </div>
       <nav className="mt-6">

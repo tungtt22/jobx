@@ -1,10 +1,892 @@
 {
-  "jobs": [],
-  "lastUpdated": "2025-09-06T16:51:23.428Z",
+  "jobs": [
+    {
+      "id": "freelancer_1759165011338_0",
+      "title": "Website Developer Needed for Testing and Fixing Functionalities",
+      "company": "Website Developer Needed for Testing and Fixing Functionalities",
+      "location": "Website Developer Needed for Testing and Fixing Functionalities",
+      "description": "I’m looking for an experienced website developer to thoroughly test my website, identify issues, and fix all functionalities. Some features are incomplete and need to be built as well. The goal is to ensure the website is fully functional, tested, and verified.\n\nKey Requirements:\n- Comprehensive testing of all existing functionalities\n- Fixing any identified issues\n- Completing unfinished features\n- Ensuring smooth functionality across the entire site\n\nPayment Terms: No milestone payments will be created. Full payment will be released immediately upon successful completion of the project.",
+      "url": "https://www.freelancer.com/jobs/projects/html/website-developer-needed-for-testing",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [],
+      "postedAt": "2025-09-29T16:56:51.339Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011342_1",
+      "title": "Bubble.io Messaging and Subscription Integration",
+      "company": "Bubble.io Messaging and Subscription Integration",
+      "location": "Bubble.io Messaging and Subscription Integration",
+      "description": "I need an experienced  developer to help with the following:\n1. Messaging System\n   - Set up a real-time messaging feature for users to send/receive messages within the app.\n   - Can be implemented using a Bubble chat plugin or reliable third-party integration (e.g., CometChat, Agora, or Firebase).\n   - The system must be simple, clean, and user-friendly.\n\n2. Payment Gateway (Paystack) Integration\n   - Enable subscriptions/payments so users can unlock premium features.\n   - Connect the app to Paystack using API keys (via plugin or Bubble’s API Connector).\n   - Ensure payment verification, error handling, and smooth user experience.\n\nIdeal Skills and Experience:\n- Strong experience with  development.\n- Familiarity with API integrations (especially payment gateways like Paystack).\n- Ex...",
+      "url": "https://www.freelancer.com/jobs/projects/android/bubble-messaging-subscription",
+      "source": "freelancer",
+      "category": "Other",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [],
+      "postedAt": "2025-09-29T16:56:51.342Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011342_2",
+      "title": "Scalable & Inbox-Friendly Email System with Redis Queue Worker Setup (40 Workers)",
+      "company": "Scalable & Inbox-Friendly Email System with Redis Queue Worker Setup (40 Workers)",
+      "location": "Scalable & Inbox-Friendly Email System with Redis Queue Worker Setup (40 Workers)",
+      "description": "I need a scalable, dynamic, and inbox-friendly email system that can send unique emails using Gmail API and multiple other domains.\n\nThis system should use a Redis Queue Worker setup with 40 initial workers, easily upgradeable to 100+ workers in the future. All workers must operate using single centralized credentials without separate user login, maintaining centralized configuration, monitoring, and rate-limiting.\n\nCore Features:\n1. Dynamic & Unique Emails\n   - Each email is unique: Subject, Body, Name, Phone, Images, Buttons, GIFs.\n   - Modern responsive HTML templates with inline CSS.\n   - Inline images (base64 or CID) and optional attachments.\n   - Personalized merge fields (Name, Phone, Location, Preferences).\n   - Optional dynamic features: Buttons, Countdown Timers, Em...",
+      "url": "https://www.freelancer.com/jobs/projects/css/scalable-inbox-friendly-email-system",
+      "source": "freelancer",
+      "category": "Other",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "Redis",
+        "HTML",
+        "CSS",
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.342Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011343_3",
+      "title": "Stylish Lehengas E-Commerce Website Development",
+      "company": "Stylish Lehengas E-Commerce Website Development",
+      "location": "Stylish Lehengas E-Commerce Website Development",
+      "description": "I need a stylish, fully-functional e-commerce website to showcase and sell my lehenga collection. The site should include categories like Bridal, Party Wear, and Contemporary styles, with product filters, size charts, customer reviews, and an easy-to-use admin panel for future updates.\n\nKey features:\n- Mobile-first design for seamless browsing on all devices.\n- Integrated payment gateways (Credit/Debit Cards, Net Banking) and Cash on Delivery (COD) option.\n- Clean layout with high-quality visuals for embroidery close-ups and color options.\n- SEO-friendly structure and security hardening.\n- Intuitive admin dashboard to manage products, discounts, and sales reports effortlessly.\n\nPreferred platforms: Shopify or WooCommerce (open to suggestions).\nTimeline: 2–3 weeks delivery.\nBudget: ₹3...",
+      "url": "https://www.freelancer.com/jobs/projects/ecommerce/stylish-lehengas-commerce-website",
+      "source": "freelancer",
+      "category": "Mobile",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "SEO"
+      ],
+      "postedAt": "2025-09-29T16:56:51.343Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011343_4",
+      "title": "AI-Generated YouTube Video Creation",
+      "company": "AI-Generated YouTube Video Creation",
+      "location": "AI-Generated YouTube Video Creation",
+      "description": "I want to produce a series of YouTube-ready videos built entirely with AI tools. I already have broad topic ideas, but I need a specialist who can take those concepts and, using platforms such as Runway, Pika, Kapwing, or any comparable text-to-video solution, turn them into polished, engaging content that can be uploaded straight to my channel.\n\nHere’s what success looks like for me:\n• Each video comes in 16:9, 1080p (or higher) MP4 format, free of copyright concerns.  \n• All visuals, motion graphics, sound, and voice-over—if included—are generated or licensed through the AI pipeline you choose.  \n• The final file is accompanied by a short description and a handful of searchable YouTube tags so I can publish quickly.  \n\nIf you have experience mixing AI ima...",
+      "url": "https://www.freelancer.com/jobs/projects/after-effects/generated-youtube-video-creation",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.343Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011343_5",
+      "title": "Multi-Country Google Ads Accounts",
+      "company": "Multi-Country Google Ads Accounts",
+      "location": "Multi-Country Google Ads Accounts",
+      "description": "I’m gearing up to launch a series of Search-only campaigns and need ready-to-use Google Ads accounts located in the United Kingdom, France and Spain—covering each country as a whole rather than individual regions or cities. If you can also include any account that is classed under a wider “European Union” location, that’s an added bonus.\n\nHere is exactly what I’m after:  \n• One freshly created, policy-compliant Google Ads account for each country (UK, FR, ES) with the billing section either pre-verified or left clean so I can attach my own payment profile.  \n• Search campaign eligibility confirmed; no previous disapprovals or suspensions.  \n• A quick hand-over: login email, password, recovery details and any 2FA instructions, all delivered...",
+      "url": "https://www.freelancer.com/jobs/projects/google-ads/multi-country-google-ads-accounts",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "AI",
+        "Google Ads"
+      ],
+      "postedAt": "2025-09-29T16:56:51.343Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011343_6",
+      "title": "Arabic Birthday Video Highlight",
+      "company": "Arabic Birthday Video Highlight",
+      "location": "Arabic Birthday Video Highlight",
+      "description": "I need a fun and upbeat highlight reel for a birthday event. The video should be in Arabic.\nI have like 15 or fewer videos (15 to 40) seconds of people like saying happy birthday, and I want to make an edit for her birthday\nRequirements:\n- Event highlight reel\n- Fun and upbeat style\n- Music suggestions needed\n\nIdeal Skills:\n- Experience in event video production\n- Proficiency in Arabic\n- Creative with music selection\n- Strong editing skills\n\nThe videos are in my drive so when someone accepts it, I will provide it",
+      "url": "https://www.freelancer.com/jobs/projects/av-editing/arabic-birthday-video-highlight",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [],
+      "postedAt": "2025-09-29T16:56:51.343Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011343_7",
+      "title": "Notion Habit Goal Tracker Template",
+      "company": "Notion Habit Goal Tracker Template",
+      "location": "Notion Habit Goal Tracker Template",
+      "description": "I’m building a personal goal-setting system in Notion and need a polished template that links my daily habits—specifically daily exercises, reading, and meditation—to their parent goals. Each time I check off a habit, the corresponding goal should update its progress automatically and show me a clear numeric value (e.g., “42 / 100 sessions” or “68 %”). \n\nHere’s the workflow I have in mind:\n\n• One dashboard where I can see today’s habits, overall goal progress, and a quick summary of what’s left.  \n• Separate Habits and Goals databases connected through Relations and Rollups, with Formulas handling the math so the numbers refresh instantly.  \n• Simple toggles or views that let me switch between weekly, monthly, and a...",
+      "url": "https://www.freelancer.com/jobs/projects/notion/notion-habit-goal-tracker-template",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.343Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011344_8",
+      "title": "Collaborative Project: Backend Developer Needed (WAMP)",
+      "company": "Collaborative Project: Backend Developer Needed (WAMP)",
+      "location": "Collaborative Project: Backend Developer Needed (WAMP)",
+      "description": "An MVP project with a future.\nTeamwork, quick solutions, and ideas.\nDeep knowledge of the WAMP stack.",
+      "url": "https://www.freelancer.com/jobs/projects/php/collaborative-project-backend-developer",
+      "source": "freelancer",
+      "category": "Backend",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [],
+      "postedAt": "2025-09-29T16:56:51.344Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011344_9",
+      "title": "Logo Slogan Word Update",
+      "company": "Logo Slogan Word Update",
+      "location": "Logo Slogan Word Update",
+      "description": "I need a quick tweak to my existing logo: the slogan currently reads “Experience,” and I want that single word replaced with “life.” The slogan is baked into the logo artwork I use across all my marketing materials, so the edited file must match the original styling, kerning, color, and overall balance perfectly.\n\nI can supply the original source file (vector AI/EPS) plus any fonts used. After the swap, please return:\n• Updated vector file (AI/EPS)\n• High-resolution PNG with transparent background\n• PDF for print\n\nNo other design changes are required—just the precise word substitution. Turnaround within 24 hours would be ideal, and I’ll approve once I see the updated files align exactly with the current brand look.",
+      "url": "https://www.freelancer.com/jobs/projects/vector-design/logo-slogan-word-update",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.344Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011345_10",
+      "title": "Smart Product App Development",
+      "company": "Smart Product App Development",
+      "location": "Smart Product App Development",
+      "description": "I need an experienced mobile app developer to enhance my existing SDK for a smart products application. The app should be developed for both iOS and Android platforms.\n\nKey Requirements:\n- Add push notifications\n- Integrate user authentication\n- Implement device control functions\n- Modern design is a must\n\nIdeal Skills and Experience:\n- Proficiency in mobile app development for both iOS and Android\n- Experience with SDK integration\n- Strong background in implementing push notifications and user authentication\n- UI/UX design skills for modern app aesthetics\n- Familiarity with smart device control mechanisms\n\nPlease provide examples of similar work done.",
+      "url": "https://www.freelancer.com/jobs/projects/ios-development/smart-product-app-development",
+      "source": "freelancer",
+      "category": "Mobile",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "iOS",
+        "Android"
+      ],
+      "postedAt": "2025-09-29T16:56:51.345Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011345_11",
+      "title": "Ansys Automation with Python",
+      "company": "Ansys Automation with Python",
+      "location": "Ansys Automation with Python",
+      "description": "I'm looking for an experienced Python developer to help automate simulations in Ansys, specifically ACP Pre and Modal combined tasks. \n\nKey requirements:\n- Write Python scripts for automation\n- Assist in defining simulation parameters and variables\n\nIdeal skills and experience:\n- Proficiency in Python\n- Experience with Ansys, especially ACP Pre and Modal\n- Strong problem-solving skills\n- Ability to work independently and deliver quality results",
+      "url": "https://www.freelancer.com/jobs/projects/ansys/ansys-automation-with-python",
+      "source": "freelancer",
+      "category": "Backend",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "Python"
+      ],
+      "postedAt": "2025-09-29T16:56:51.345Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011346_12",
+      "title": "Salesforce Developer for KYC Plugin & AppExchange Publishing -- 2",
+      "company": "Salesforce Developer for KYC Plugin & AppExchange Publishing -- 2",
+      "location": "Salesforce Developer for KYC Plugin & AppExchange Publishing -- 2",
+      "description": "We need a Salesforce developer to build a managed package plugin for integrating a KYC (Know Your Customer) platform into Salesforce and assist with publishing it on AppExchange. The plugin enables KYC checks on Contact or Lead records, with status updates via a middleware server (details will be provided).\n\nTasks\n- Develop a managed package with custom fields (e.g., KYC Status) and Apex classes.\n- Create Lightning Web Components for:\n\t- Initiating KYC checks from record pages (e.g., a button).\n\t- Displaying KYC status/results.\n- Configure Named Credentials for middleware authentication (OAuth 2.0).\n- Implement REST API calls for KYC requests and webhook updates.\n- Support refresh tokens for session management.\n- Write unit tests (80%+ coverage) and ensure security (no hardcoded credential...",
+      "url": "https://www.freelancer.com/jobs/projects/salesforce-com/salesforce-developer-for-kyc-plugin",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "REST API",
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.346Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011346_13",
+      "title": "Business proposal writer and Company profile writer",
+      "company": "Business proposal writer and Company profile writer",
+      "location": "Business proposal writer and Company profile writer",
+      "description": "I am looking for a skilled translator who can help me translate both a business proposal and a detailed company profile into [Arabic, Romania, Italy].\n\nSkills and Experience:\n- Strong translation skills and experience in translating business proposals and company profiles\n- Expertise in conducting research to ensure accurate and contextually appropriate translations\n- Ability to provide expert insight into linguistic nuances and cultural considerations\n- Attention to detail and ability to maintain the integrity of a detailed company profile\n- Proficiency in creating clear, compelling, and persuasive translated content\n- Understanding of the target audience and ability to tailor translations accordingly\n\nThe business proposal can be a few pages long, while the company profile needs to be de...",
+      "url": "https://www.freelancer.com/jobs/projects/business-writing/business-proposal-writer-company-profile-39834294",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.347Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011347_14",
+      "title": "Complete Existing Windows App",
+      "company": "Complete Existing Windows App",
+      "location": "Complete Existing Windows App",
+      "description": "I have a Windows desktop application already in development, with a functional code base and repository set up. Unfortunately, my previous developer was unable to bring it to completion. I’m now looking for an experienced Windows software engineer who can step in, review the existing work, refine the architecture where needed, and deliver a polished, production-ready build.\n\nThe project is built with React + TypeScript + Tauri. At present, the app compiles successfully and many of the core screens are in place, but several workflows are incomplete, some UI elements still need refinement, and a few bugs appear during edge-case testing.\n\nI will provide the full source code, a summary of known issues, and the feature backlog we’d like to cover. From there, I’d expect you to ...",
+      "url": "https://www.freelancer.com/jobs/projects/software-development/complete-existing-windows-app",
+      "source": "freelancer",
+      "category": "Frontend",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "React",
+        "TypeScript"
+      ],
+      "postedAt": "2025-09-29T16:56:51.347Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011347_15",
+      "title": "Global Finance Glossary Fact-Check",
+      "company": "Global Finance Glossary Fact-Check",
+      "location": "Global Finance Glossary Fact-Check",
+      "description": "We need an experienced **market analyst / researcher** to peer-review and redline B2B financial glossary articles for the **US market**. Topics include derivatives, FX, commodities, market microstructure, risk management, and trade execution. Goal: accuracy, neutrality, and **compliance-safe** language for an institutional audience.\n\n**Scope**\n\n* Review and edit **~20 entries per month**, each **1500 words**\n* Verify definitions, formulas, and examples against **primary US sources** (SEC, CFTC, NFA/FINRA rules & notices, exchange rulebooks like CME/ICE, Federal Reserve/BEA/BLS publications)\n* Rework tone to be **educational and non-promotional**; remove any “promises of profit” or advisory language\n* Add brief **editor notes** explaining material changes and include citatio...",
+      "url": "https://www.freelancer.com/jobs/projects/market-analysis/global-finance-glossary-fact-check",
+      "source": "freelancer",
+      "category": "Data",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.347Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011347_16",
+      "title": "EMC Data Domain Setup Specialist",
+      "company": "EMC Data Domain Setup Specialist",
+      "location": "EMC Data Domain Setup Specialist",
+      "description": "I need an expert to set up data backup and recovery using EMC Data Domain. \n\nKey Requirements:\n- Focus on database data\n- Experience with EMC Data Domain\n- Knowledge of backup and recovery processes\n- Ability to work with various database systems, especially MySQL, SQL Server, or Oracle\n\nIdeal Skills and Experience:\n- EMC certification\n- Database management expertise\n- Strong troubleshooting skills\n- Previous setup experience in similar environments\n\nPlease provide relevant experience in your bids.",
+      "url": "https://www.freelancer.com/jobs/projects/database-management/emc-data-domain-setup-specialist",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "MySQL",
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.347Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011349_17",
+      "title": "Basic Social Network Web App",
+      "company": "Basic Social Network Web App",
+      "location": "Basic Social Network Web App",
+      "description": "I’m kicking off a small-scale social networking project and need a developer who can stand up a clean, responsive web application that focuses first on robust user profiles. The core of this MVP is straightforward:\n\n• Secure sign-up / log-in with email or social auth  \n• Editable public profile pages (avatar, bio, links, privacy controls)  \n• Lightweight admin panel for managing users and flagged content  \n\nFor now, chat, messaging, and activity feeds are out of scope; I’d rather nail the profile experience before layering anything else on. You’re free to use whatever modern stack you’re most productive with—React or Vue on the front end and Node, Django, or similar on the back—but the code needs to be cleanly structured, documented, and r...",
+      "url": "https://www.freelancer.com/jobs/projects/web-development/basic-social-network-web-app",
+      "source": "freelancer",
+      "category": "Frontend",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "React",
+        "Django",
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.349Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011349_18",
+      "title": "Design Fix & Image Optimization",
+      "company": "Design Fix & Image Optimization",
+      "location": "Design Fix & Image Optimization",
+      "description": "I need a developer who can dive into my existing site, smooth out the design inconsistencies, and stop the slow rendering of images that is frustrating users. The layout looks uneven on a few breakpoints, some elements shift when the page loads, and large images lag before they appear.  \n\nHere’s what success looks like to me:  \n• Clean, responsive styling that behaves the same in modern browsers and on mobile screens.  \n• Images that load quickly—whether you choose compression, lazy-loading, smarter formats, or a mix is up to your expertise—as long as the visual quality stays sharp.  \n• No regressions to current functionality; everything that already works should remain untouched.  \n\nYou’ll have access to the code repository and hosting environment th...",
+      "url": "https://www.freelancer.com/jobs/projects/web-design/design-fix-image-optimization",
+      "source": "freelancer",
+      "category": "Mobile",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.349Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011349_19",
+      "title": "Full Web Front-End Redesign",
+      "company": "Full Web Front-End Redesign",
+      "location": "Full Web Front-End Redesign",
+      "description": "I am moving an existing Eclipse-based desktop GUI to a browser-first experience and I want the entire user journey re-imagined rather than copied. The new interface will be placed directly in the hands of end customers, so every screen must feel welcoming, self-explanatory and consistent with a modern, clean design language.\n\nThis project does does not entail redesigning our entire GUI, just a subset that my team and I found to be a good starting point.\n\nThis does not require JavaScript or any other development/coding process, this is purely UI/UX design, using application such as Figma, Adobe, or whatever design software you are most familiar with.\n\nSupplying corresponding HTML and CSS would be a huge benefit.\n\nPlease read the uploaded document for more detailed information about the proj...",
+      "url": "https://www.freelancer.com/jobs/projects/ui-design/full-web-front-end-redesign",
+      "source": "freelancer",
+      "category": "Backend",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "JavaScript",
+        "Java",
+        "HTML",
+        "CSS",
+        "Figma",
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.349Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011349_20",
+      "title": "Amazon-Style Ecommerce Website Build",
+      "company": "Amazon-Style Ecommerce Website Build",
+      "location": "Amazon-Style Ecommerce Website Build",
+      "description": "I’m launching an online store focused on physical Clothing and Accessories and I want the overall shopping experience to feel as seamless and feature-rich as Amazon’s—scaled to my catalogue, of course.\n\nCore requirements  \n• A modern, responsive storefront that showcases apparel with high-resolution images, variant selection (size, colour, etc.) and real-time stock status.  \n• Advanced product filtering so visitors can narrow results by size, colour, price, and other relevant attributes without reloading the page.  \n• Integrated customer reviews with star ratings and the ability to add photos. Reviews should be easily moderated from the admin panel.  \n• Wishlist functionality that works for both logged-in customers and guests (cookie-based), with a pro...",
+      "url": "https://www.freelancer.com/jobs/projects/web-development/amazon-style-ecommerce-website-build",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [],
+      "postedAt": "2025-09-29T16:56:51.349Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011349_21",
+      "title": "Urgent Modern Garden Pot Catalogue",
+      "company": "Urgent Modern Garden Pot Catalogue",
+      "location": "Urgent Modern Garden Pot Catalogue",
+      "description": "I need a sleek, modern-minimalist PDF catalogue for my garden pot range and I need it back within 12 hours of awarding the project. I will supply product photos and basic details as soon as we start; you’ll handle layout, subtle photo retouching for clarity, clean typography, and an overall cohesive look that feels premium yet uncluttered.\n\nScope\n• Build a print-ready and screen-friendly PDF (A4 or Letter—whichever best suits the content).\n• Apply a consistent grid, white space, and neutral colour palette so the pots and their textures stand out.\n• Optimise every image for sharpness and accurate colour without over-editing.\n• Include a simple cover, intuitive product sections, clear pricing/ SKU spots, and a tidy back page with my contact info.\n\nDeliverables...",
+      "url": "https://www.freelancer.com/jobs/projects/indesign/urgent-modern-garden-pot-catalogue",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.349Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011350_22",
+      "title": "Shopify Site & Packaging Mockups",
+      "company": "Shopify Site & Packaging Mockups",
+      "location": "Shopify Site & Packaging Mockups",
+      "description": "I need a complete Shopify presence for my brand—three distinct sweets, three distinct packages—all tied together by a minimalist, clean aesthetic. The online store must follow a multi-page architecture so customers can explore each product line, our story, and FAQs without clutter. Core features have to ship ready-to-use: a friction-free shopping cart and checkout flow, visible user reviews and ratings on every product page, and a simple newsletter sign-up that folds seamlessly into the design.\n\nOn the visual side, I’m counting on you to create the packaging artwork and polished mock-ups for each sweet. Think shelf-ready dielines plus photorealistic renders that I can drop into marketing collateral the moment they’re approved.\n\nI’m comfortable if you work in S...",
+      "url": "https://www.freelancer.com/jobs/projects/adobe-illustrator/shopify-site-packaging-mockups",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [],
+      "postedAt": "2025-09-29T16:56:51.350Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011350_23",
+      "title": "Modern Stylish Beautiful and Peaceful looking Hospital Logo Design Required",
+      "company": "Modern Stylish Beautiful and Peaceful looking Hospital Logo Design Required",
+      "location": "Modern Stylish Beautiful and Peaceful looking Hospital Logo Design Required",
+      "description": "Need a hospital logo.\n\nEasy to remember and design but also stylish. Have to be beautiful and looks peaceful too.\n\nI will mention the hospital name in DM.\n\nNeed to be completed quickly without using AI.",
+      "url": "https://www.freelancer.com/jobs/projects/creative-design/modern-stylish-beautiful-peaceful",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.350Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011350_24",
+      "title": "Hybrid Admin Clerk Needed",
+      "company": "Hybrid Admin Clerk Needed",
+      "location": "Hybrid Admin Clerk Needed",
+      "description": "My day-to-day paperwork has outgrown my current capacity, so I’m bringing in a flexible admin clerk who can split time between quick visits to the office and remote work from home.  \n\nThe core responsibilities are straightforward: enter data accurately into our records, keep physical and digital files organised, and handle incoming phone calls with a professional tone. Most data lives in Microsoft Office and Google Suite spreadsheets and docs; invoices and expense reports flow through QuickBooks, so solid familiarity with these three tools is essential from day one.  \n\nI’ll provide secure remote access plus a quiet desk when you’re on-site. We can agree together on a weekly schedule—for example, two half-days in the office for filing and phones, with the rest handle...",
+      "url": "https://www.freelancer.com/jobs/projects/microsoft-office/hybrid-admin-clerk-needed",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "remote",
+      "skills": [
+        "Git",
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.350Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011350_25",
+      "title": "Create or Refine Website Logo",
+      "company": "Create or Refine Website Logo",
+      "location": "Create or Refine Website Logo",
+      "description": "I’d like to explore two parallel directions for my site’s identity: a fresh minimalist logo from scratch and a polished version of the mark I already have. For the redesign option, the goal is simple—keep the current layout but make every character sit on the same baseline and bring the colours up to crisp, web-safe resolution.  \n\nAt the same time, feel free to pitch a brand-new minimalist concept that still pairs text with an icon. I’m keen to see how an original idea compares to a cleaned-up version, so please deliver both routes side-by-side.  \n\nWhen we wrap up, I’ll need:  \n• Editable vector files (AI or SVG) for each concept  \n• High-resolution PNGs on transparent background  \n• A quick rundown of the colour palette and fonts used, so I can...",
+      "url": "https://www.freelancer.com/jobs/projects/adobe-illustrator/create-refine-website-logo",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.350Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011350_26",
+      "title": "Salesforce Developer for KYC Plugin & AppExchange Publishing",
+      "company": "Salesforce Developer for KYC Plugin & AppExchange Publishing",
+      "location": "Salesforce Developer for KYC Plugin & AppExchange Publishing",
+      "description": "We need a Salesforce developer to build a managed package plugin for integrating a KYC (Know Your Customer) platform into Salesforce and assist with publishing it on AppExchange. The plugin enables KYC checks on Contact or Lead records, with status updates via a middleware server (details will be provided).\n\nTasks\n- Develop a managed package with custom fields (e.g., KYC Status) and Apex classes.\n- Create Lightning Web Components for:\n\t- Initiating KYC checks from record pages (e.g., a button).\n\t- Displaying KYC status/results.\n- Configure Named Credentials for middleware authentication (OAuth 2.0).\n- Implement REST API calls for KYC requests and webhook updates.\n- Support refresh tokens for session management.\n- Write unit tests (80%+ coverage) and ensure security (no hardcoded credential...",
+      "url": "https://www.freelancer.com/jobs/projects/salesforce-lightning/salesforce-developer-for-kyc-plugin",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "REST API",
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.350Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011351_27",
+      "title": "Customer Data Entry in Excel",
+      "company": "Customer Data Entry in Excel",
+      "location": "Customer Data Entry in Excel",
+      "description": "I have a collection of customer information stored in a mix of existing Excel workbooks and Word documents. I need every record transferred, validated, and organized into one clean, well-structured Excel spreadsheet.\n\nHere’s what the work involves:  \n• Open each digital file, copy the relevant customer fields (name, email, phone, address, notes, etc.), and paste them into the master Excel file following the column template I supply.  \n• Standardize formatting—proper capitalization, consistent phone number formats, no stray spaces.  \n• Check for duplicates and merge or remove them so each customer appears only once.  \n• Run a simple spell-check and flag any unclear entries for my review.  \n\nDeliverable: a single .xlsx file containing all customer records, rea...",
+      "url": "https://www.freelancer.com/jobs/projects/customer-data-entry-excel-fix",
+      "source": "freelancer",
+      "category": "Data",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "Git",
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.351Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011351_28",
+      "title": "Canon DSLR Sale Assistance",
+      "company": "Canon DSLR Sale Assistance",
+      "location": "Canon DSLR Sale Assistance",
+      "description": "The task is simple yet requires genuine camera know-how and a trusted personal network in Karachi. I have a Canon DSLR (model 550D) that should land in the hands of someone who will enjoy it for personal use ideally a relative or close friend you already advise on photography gear. Your role is to handle the entire hand-off: confirm the camera’s condition with the buyer, communicate its features and fair value, and finalize the sale at a mutually convenient time and place within the city.\n\nBecause you already shoot with or own DSLR equipment, you understand shutter count, sensor care, and the going market rate, so conversations about lenses or accessories feel natural. Timing is completely flexible; this is a one-time freelance engagement. Once the sale is completed, I’ll simpl...",
+      "url": "https://www.freelancer.com/jobs/projects/photography/canon-dslr-sale-assistance",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "freelance",
+      "skills": [
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.351Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011351_29",
+      "title": "Social Media Graphics and Reels",
+      "company": "Social Media Graphics and Reels",
+      "location": "Social Media Graphics and Reels",
+      "description": "I’m looking to refresh my Facebook and Instagram presence with a cohesive pack of visuals that work together to build brand awareness, drive engagement, and spotlight key promotions.  \nHere’s what I need produced:\n\n• Post images tailored to each platform’s dimensions and best-practice design standards.  \n• Website-ready banner ads that match the look and feel of my social feeds.  \n• Story templates I can reuse for daily updates or flash offers.  \n• Light edits on short Instagram Reels—think trimming, text overlays, and simple motion graphics to keep everything on-brand.\n\nEverything should share a consistent colour palette, typography style, and overall vibe so the audience immediately recognises the content as ours. You’re free to work in P...",
+      "url": "https://www.freelancer.com/jobs/projects/social-media-marketing/social-media-graphics-reels",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.351Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011351_30",
+      "title": "Shopify SaaS Backend Development",
+      "company": "Shopify SaaS Backend Development",
+      "location": "Shopify SaaS Backend Development",
+      "description": "1) Context & Objective  I already provide the frontend (landing + dashboard) and all FR/EN content. I am looking for a backend developer to connect all APIs and deliver a mobile-first SaaS that creates ready-to-use Shopify mono-product stores, with options to add physical products.  Important:  We use Shopify via a Partner account, not an app published on the Shopify App Store.  Subscription payments are handled outside Shopify (Stripe / Lemon Squeezy).  The SaaS must remain minimalistic and very fast.  I will provide the GitHub repository for the frontend. The developer’s only job is to implement the backend and connect all APIs.  2) User Journey (Functional Flow)  Landing Page  User chooses a niche in a text field (suggestions displayed but not mandatory).  CTA: “Create M...",
+      "url": "https://www.freelancer.com/jobs/projects/shopify-site/shopify-saas-backend-development",
+      "source": "freelancer",
+      "category": "Frontend",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "Git",
+        "GitHub",
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.351Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011351_31",
+      "title": "Weekly Facebook & Instagram Manager",
+      "company": "Weekly Facebook & Instagram Manager",
+      "location": "Weekly Facebook & Instagram Manager",
+      "description": "I’m ready to hand over full weekly management of my Facebook and Instagram feeds, and I need someone who can keep both channels active with a steady mix of eye-catching images and short, engaging videos.\n\nHere’s what the role looks like from my side:\n• Each Monday you’ll present a one-week content calendar for approval.  \n• You’ll create (or repurpose) at least three image posts and one short video, write the captions and hashtags, then schedule everything through Meta Business Suite, Later, or a similar tool.  \n• Light community management is part of the job—acknowledge basic comments, delete spam, and flag anything I should see within 24 hours.  \n• At month-end, provide a concise performance snapshot covering reach, engagement, and recomm...",
+      "url": "https://www.freelancer.com/jobs/projects/social-media-management/weekly-facebook-instagram-manager",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [],
+      "postedAt": "2025-09-29T16:56:51.351Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011352_32",
+      "title": "Mindset Media Website Upgrade",
+      "company": "Mindset Media Website Upgrade",
+      "location": "Mindset Media Website Upgrade",
+      "description": "# Statement of Work (SOW)\n\n**Project:** Mindset Media Website Revamp\n**Client:** Mindset Media ()\n**Vendor:** [Freelancer/Agency Name]\n**Date:** [DD Mon YYYY]\n**Budget (Fixed):** ₹70,000–₹80,000 (all‑inclusive)\n\n---\n\n## 1) Goal & Outcomes (What success looks like)\n\n* Convert **more enquiries** via a conversion‑first, mobile‑fast site.\n* Showcase **end‑to‑end signage** + **retail fixtures/experience zones** with proof (case studies, galleries, KPIs).\n* Improve **speed, SEO basics, and WhatsApp lead flow**.\n\n**KPIs at Handover**\n\n* TTI/LCP in “Good” (Core Web Vitals) on mobile; Homepage load ≤ 2.5s on 4G.\n* ≥ 2 active **lead CTAs** (Get Quote, Book a Recce) working with email + WhatsApp.\n* **10 case studies** live with filters; gallery with tags.\n* Basic **schema*...",
+      "url": "https://www.freelancer.com/jobs/projects/web-development/mindset-media-website-upgrade",
+      "source": "freelancer",
+      "category": "Mobile",
+      "region": "OTHER",
+      "contractType": "freelance",
+      "skills": [
+        "AI",
+        "SEO"
+      ],
+      "postedAt": "2025-09-29T16:56:51.352Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011352_33",
+      "title": "Facility Management Homepage Build",
+      "company": "Facility Management Homepage Build",
+      "location": "Facility Management Homepage Build",
+      "description": "I need a clean, modern homepage that immediately showcases what our new facility management company can do. The page’s sole job is to present our services in a clear, attractive way so visitors understand our range and feel confident enough to get in touch.\n\nPlease structure the hero section around a concise value statement, followed by short, visually appealing service blocks. Each block should be supported by an icon or image, a headline, and a one-sentence benefit. The services that must stand out are:\n\n• Winterdienst  \n• Grünpflege  \n• Gebäudereinigung  \n• Technisches Facility Management  \n• Infrastrukturelles Facility Management  \n• 360 Facility Management  \n\nA responsive layout, fast load time, and an obvious call-to-action button (phone ...",
+      "url": "https://www.freelancer.com/jobs/projects/web-development/facility-management-homepage-build",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [],
+      "postedAt": "2025-09-29T16:56:51.352Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011352_34",
+      "title": "Custom Song Lyrics Needed",
+      "company": "Custom Song Lyrics Needed",
+      "location": "Custom Song Lyrics Needed",
+      "description": "I need a fresh set of song lyrics written from scratch as quickly as possible. The style should sit comfortably in contemporary Pop or Hip-Hop yet still borrow flavour from R&B, Latin, Indie and classic Rhythm and Blues, so the words have to feel soulful but radio-friendly.  \n\nThe finished file should present a complete song—ready for melody writing and studio tracking. I’m happy to supply a rough concept or mood board once we agree to work together, but I’m also open to your own creative angle if you prefer to pitch one. Turnaround is urgent, so same-week delivery is ideal.\n\nPlease include links or files that show previous lyric sheets, finished songs or any writing credits. A quick note on your experience and how you’d tackle a multi-genre brief will help me c...",
+      "url": "https://www.freelancer.com/jobs/projects/creative-writing/custom-song-lyrics-needed",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [],
+      "postedAt": "2025-09-29T16:56:51.352Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011352_35",
+      "title": "Real-Time AI Video Upscaler",
+      "company": "Real-Time AI Video Upscaler",
+      "location": "Real-Time AI Video Upscaler",
+      "description": "I’m looking to turn standard-definition MP4 footage into crisp HD (or better) in real time through an AI-powered application. The upscaled material must be broadcast-ready for television and equally polished for fast-moving social feeds, so latency has to stay low while color accuracy and sharpness remain high.\n\nCore expectations  \nThe program should ingest an SD MP4 stream or file, process it on-the-fly—ideally using GPU acceleration—and output a clean up-resolution signal that slots straight into a TV playout chain or can be rendered for social platforms. If you can keep the door open for other common containers down the line, that’s a welcome bonus, but MP4 is the non-negotiable starting point.\n\nQuality & performance targets  \n• Real-time (or near real-t...",
+      "url": "https://www.freelancer.com/jobs/projects/machine-learning/real-time-video-upscaler",
+      "source": "freelancer",
+      "category": "Video",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "Chai",
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.352Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011352_36",
+      "title": "Resolve Mobile App Profile Issues",
+      "company": "Resolve Mobile App Profile Issues",
+      "location": "Resolve Mobile App Profile Issues",
+      "description": "I need help fixing profile issues on a mobile app. \n\nThe main problem is comingled profiles, where multiple user profiles are mixed together. \n\nIdeal skills and experience:\n- Mobile app development\n- Experience with profile management systems\n- Troubleshooting and debugging expertise\n\nLooking for a freelancer who can efficiently resolve these issues and ensure profiles are accurately displayed.",
+      "url": "https://www.freelancer.com/jobs/projects/troubleshooting/resolve-mobile-app-profile-issues",
+      "source": "freelancer",
+      "category": "Mobile",
+      "region": "OTHER",
+      "contractType": "freelance",
+      "skills": [
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.352Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011352_37",
+      "title": "Polish Two Tailwind Vue Pages",
+      "company": "Polish Two Tailwind Vue Pages",
+      "location": "Polish Two Tailwind Vue Pages",
+      "description": "I already have skeleton “About Us” and “What Is” pages built with Vue 3 and Tailwind CSS v4; they just need the final visual polish. The copy is finished, so your focus will be layout, backgrounds, and the app mock-ups.\n\nHere’s what I’m after:\n\n• A vibrant, colorful look—think lively gradients or abstract shapes rather than flat minimalism.  \n• Placement for real screenshots of the app inside desktop and mobile mock-ups (I’ll supply the images).  \n• Clean, responsive Tailwind markup that can either live in standalone HTML files or be dropped directly into my existing Vue components.  \n• Smooth scrolling and subtle motion are welcome if you keep them lightweight and inline with Vue best practices.\n\nDeliverables  \n1. Updated...",
+      "url": "https://www.freelancer.com/jobs/projects/tailwind-css/polish-two-tailwind-vue-pages",
+      "source": "freelancer",
+      "category": "Frontend",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "HTML",
+        "CSS",
+        "Tailwind",
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.353Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011353_38",
+      "title": "PostgreSQL Database Specialist Needed",
+      "company": "PostgreSQL Database Specialist Needed",
+      "location": "PostgreSQL Database Specialist Needed",
+      "description": "My team’s platform depends on a rock-solid PostgreSQL foundation and I need expert support from initial assessment through to production hand-over. The current priority is to verify (or create) an efficient schema, tune any slow queries, and establish a reliable migration and backup workflow. Once the core is stable I also want clear documentation so future iterations stay clean and predictable.\n\nDeliverables  \n• Optimised schema (DDL scripts and diagram)  \n• Indexed and refactored queries, benchmark results included  \n• Automated migration, backup and restore routines with step-by-step instructions  \n• A concise knowledge-transfer session covering what was changed, why, and how to extend it\n\nAcceptance criteria: PgBench or similar stress-tests show agreed perform...",
+      "url": "https://www.freelancer.com/jobs/projects/postgresql/postgresql-database-specialist-needed",
+      "source": "freelancer",
+      "category": "Data",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "PostgreSQL"
+      ],
+      "postedAt": "2025-09-29T16:56:51.353Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011353_39",
+      "title": "Middle School History Textbook Copyedit",
+      "company": "Middle School History Textbook Copyedit",
+      "location": "Middle School History Textbook Copyedit",
+      "description": "I need a detailed copyeditor for a middle school history textbook. The primary focus will be on correcting spelling errors.\n\nRequirements:\n- Experience in copyediting educational materials, specifically history content.\n- Strong command of grammar, syntax, and spelling.\n- Attention to detail to ensure formatting consistency.\n\nIdeal Skills and Experience:\n- Background in history or education.\n- Prior experience with textbooks or academic publications.\n- Ability to meet deadlines and communicate effectively.",
+      "url": "https://www.freelancer.com/jobs/projects/copy-editing/middle-school-history-textbook-copyedit-39834260",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.353Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011353_40",
+      "title": "Android Flutter App, PHP Backend",
+      "company": "Android Flutter App, PHP Backend",
+      "location": "Android Flutter App, PHP Backend",
+      "description": "I need an Android-only mobile application written in Flutter that talks to my existing PHP + MySQL stack. The priority is to get a clean, production-ready build that:\n\n• Lets users register and sign in with phone-number verification (OTP).  \n• Delivers real-time push notifications for account events and system messages.  \n\nMy backend is already running on PHP with a well-structured database; I’ll expose or adapt the necessary REST endpoints once we agree on the exact data flow. If you prefer, feel free to suggest better patterns for the API layer or token handling—security is important to me.\n\nThere is also a light data-scraping component. I occasionally pull structured information from a third-party site and store it in MySQL; you are welcome to help refine that scri...",
+      "url": "https://www.freelancer.com/jobs/projects/flutter/android-flutter-app-php-backend",
+      "source": "freelancer",
+      "category": "Backend",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "PHP",
+        "MySQL",
+        "Flutter",
+        "Android"
+      ],
+      "postedAt": "2025-09-29T16:56:51.353Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011353_41",
+      "title": "Autumn Concert Promo Video Production",
+      "company": "Autumn Concert Promo Video Production",
+      "location": "Autumn Concert Promo Video Production",
+      "description": "I need a short, high-impact promotional video that captures the upbeat, energetic, yet heartfelt spirit of our Generation to Generation Ministries fundraising concert on November 23, 2025. The spot should feel distinctly autumnal—rich colors, warm overlays, maybe a few falling-leaf transitions—while motivating viewers to buy tickets, spread the word, and step up as sponsors for community members in need.",
+      "url": "https://www.freelancer.com/jobs/projects/adobe-premiere-pro/autumn-concert-promo-video-production",
+      "source": "freelancer",
+      "category": "Video",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.353Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011353_42",
+      "title": "B2B Google Ads Lead Gen",
+      "company": "B2B Google Ads Lead Gen",
+      "location": "B2B Google Ads Lead Gen",
+      "description": "The goal is simple yet demanding: fill my pipeline with high-intent business leads for commercial cleaning services through Google Ads. I already know the audience—decision-makers and facility managers at companies that outsource their cleaning—so the brief centres on turning that insight into a profitable, scalable campaign.\n\nHere is what matters most to me:\n• A strategy that prioritises lead quality over raw click volume.  \n• Tight keyword and negative-keyword frameworks that zero in on commercial cleaning queries.  \n• Compelling ad copy and extensions that speak the language of business buyers, not consumers.  \n• Clean, verifiable conversion tracking (calls, forms, and any additional micro-conversions) so ROI is crystal-clear.  \n• Iterative optimisat...",
+      "url": "https://www.freelancer.com/jobs/projects/google-ads/google-ads-lead-gen",
+      "source": "freelancer",
+      "category": "Other",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "AI",
+        "Google Ads"
+      ],
+      "postedAt": "2025-09-29T16:56:51.353Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011354_43",
+      "title": "Blockchain / Smart Contract Developer (Long Term)",
+      "company": "Blockchain / Smart Contract Developer (Long Term)",
+      "location": "Blockchain / Smart Contract Developer (Long Term)",
+      "description": "Murena is excited to expand into the Web3 world! We are looking for a Blockchain / Smart Contract Developer to help design and implement privacy-conscious smart contracts for our ecosystem. You will work on decentralized applications that complement our Android and Windows apps.\n\nWhat you will do:\n- Develop and deploy smart contracts on Ethereum-compatible blockchains.\n- Collaborate with our product team to integrate blockchain features.\n- Review code for security, scalability, and privacy.\n- Suggest improvements for user-friendly blockchain interactions.\n\nRequirements:\n- Experience with Solidity, Rust, or similar blockchain languages.\n- Understanding of decentralized applications (DApps) and wallets.\n\nAbout us:\nMurena is an international, fully remote company focused on privacy-first smar...",
+      "url": "https://www.freelancer.com/jobs/projects/blockchain/blockchain-smart-contract-developer-long",
+      "source": "freelancer",
+      "category": "Mobile",
+      "region": "OTHER",
+      "contractType": "remote",
+      "skills": [
+        "Android",
+        "Chai",
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.354Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011354_44",
+      "title": "Hotel Outreach Email Marketer / Email Marketing / VA",
+      "company": "Hotel Outreach Email Marketer / Email Marketing / VA",
+      "location": "Hotel Outreach Email Marketer / Email Marketing / VA",
+      "description": "Email Marketing / Cold Email Specialist\n\nResponsibilities:\n\n-Research and compile lists of hotels and resorts that match target criteria.\n\n-Send pre-written collaboration emails to hotel/resort contacts.\n\n-Personalize emails where needed (e.g., hotel name, location, contact person).\n\n-Track outreach progress (sent, opened, replied, follow-up needed).\n\n-Send polite follow-up emails if no reply.\n\n-Report results regularly (responses, potential collaborations, etc.).\n\nRequirements:\n\n-Basic written English skills (clear, professional tone).\n\n-Experience with email outreach, marketing, or virtual assistance.\n\n-Attention to detail and good organizational skills.\n\n-Reliable internet connection and ability to work independently.\n\n-Basic knowledge of CRM tools, spreadsheets, or email tracking softw...",
+      "url": "https://www.freelancer.com/jobs/projects/lead-generation/hotel-outreach-email-marketer-email",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.354Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011354_45",
+      "title": "SaaS Dashboard Design Revamp",
+      "company": "SaaS Dashboard Design Revamp",
+      "location": "SaaS Dashboard Design Revamp",
+      "description": "Project Overview\n\nWe have an existing Figma prototype(ask for it in chat will share then) for our SaaS web application. The foundation is already in place, but we need to revamp certain screens and add new pages & pop-ups to support additional functionality. The application revolves around campaign management, rule automation, and analytics for ad optimization.\n\nWe are looking for a skilled UI/UX freelancer who can refine our current design, create new flows, and ensure the user experience is intuitive, professional, and scalable.(Pay is 1,500 rupees non-negotiable)\n\nScope of Work\n\nRevamp Existing Pages\n\n\n\nAccount Dashboard – Needs revamping for better data visualization, user profile info, connected accounts, and quick links.\n\nNew Pages to Design: \n\nLogin Page – Clean, mod...",
+      "url": "https://www.freelancer.com/jobs/projects/ui-design/saas-dashboard-design-revamp",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "freelance",
+      "skills": [
+        "Figma",
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.354Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011354_46",
+      "title": "Data Center Project Tracker Development",
+      "company": "Data Center Project Tracker Development",
+      "location": "Data Center Project Tracker Development",
+      "description": "I need a project tracker tool for my data center development company to monitor project progress effectively. The primary goal is to keep an eye on the completion status of tasks. \n\nKey Requirements:\n- Visual representation of task completion status\n- User-friendly task list with status updates\n\nIdeal Skills and Experience:\n- Experience in project management tool development\n- Familiarity with task tracking and visualization\n- Strong UI/UX design skills for user-friendly interfaces",
+      "url": "https://www.freelancer.com/jobs/projects/graphic-design/data-center-project-tracker-development",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [],
+      "postedAt": "2025-09-29T16:56:51.354Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011354_47",
+      "title": "Sell My Graphic Designs",
+      "company": "Sell My Graphic Designs",
+      "location": "Sell My Graphic Designs",
+      "description": "I have a growing catalogue of original graphic designs—everything from vector illustrations to social-media templates—that I’m ready to monetise. My primary sales channel will be social media, so I need a clear, actionable strategy that turns followers into customers while keeping the process manageable for one person.  \n\nAlongside the social push, I also want to build a polished storefront on Creative Market to capture an additional stream of buyers who already search for downloadable assets there.\n\nWhat I’m looking for is practical support that covers both planning and execution:\n\n• A concise social-media sales plan that spells out which platforms, post formats and posting frequency will work best for graphic designs, complete with a 4-week content calendar. ...",
+      "url": "https://www.freelancer.com/jobs/projects/social-media-marketing/sell-graphic-designs",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [],
+      "postedAt": "2025-09-29T16:56:51.354Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011354_48",
+      "title": "research work in video editing field  -- 2",
+      "company": "research work in video editing field  -- 2",
+      "location": "research work in video editing field  -- 2",
+      "description": "Research work in video editing. Different domains within video editing. \n\nBid only if you have good experience in internet research. Especially social media research.",
+      "url": "https://www.freelancer.com/jobs/projects/graphic-design/research-work-video-editing-field",
+      "source": "freelancer",
+      "category": "Marketing",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.354Z",
+      "jobType": "freelance"
+    },
+    {
+      "id": "freelancer_1759165011355_49",
+      "title": "Modern Minimalist Spice Label Design",
+      "company": "Modern Minimalist Spice Label Design",
+      "location": "Modern Minimalist Spice Label Design",
+      "description": "I'm seeking a creative designer to craft modern, minimalist wrap-around labels for spice tins. I  have a current logo I want incorporated into the label. The spice name is “Soul Dust”. Here is the link to the container\n\n\n\nLabel Requirements:\n- Style: Modern and minimalist\n- Information: Ingredients list and nutrition facts\n- Shape: Wrap-around style for a spice tin (Width: 3.1”, Height: 2.2”) \n\n\n\nIdeal Skills and Experience:\n- Proven graphic design expertise, especially in label design\n- Strong portfolio showcasing modern and minimalist designs\n- Familiarity with nutrition facts layout and ingredient lists\n- Ability to deliver print-ready files\n\nPlease include relevant samples in your bids. Thank you!",
+      "url": "https://www.freelancer.com/jobs/projects/label-design/modern-minimalist-spice-label-design",
+      "source": "freelancer",
+      "category": "Design",
+      "region": "OTHER",
+      "contractType": "permanent",
+      "skills": [
+        "AI"
+      ],
+      "postedAt": "2025-09-29T16:56:51.355Z",
+      "jobType": "freelance"
+    }
+  ],
+  "lastUpdated": "2025-09-29T17:14:00.299Z",
   "stats": {
-    "totalJobs": 0,
-    "bySource": {},
-    "byCategory": {},
-    "byRegion": {}
+    "bySource": {
+      "freelancer": 100
+    },
+    "byCategory": {
+      "Design": 54,
+      "Other": 6,
+      "Mobile": 12,
+      "Backend": 8,
+      "Frontend": 8,
+      "Data": 6,
+      "Video": 4,
+      "Marketing": 2
+    },
+    "byContractType": {
+      "permanent": 88,
+      "remote": 4,
+      "freelance": 8
+    },
+    "byJobType": {
+      "freelance": 100
+    },
+    "bySalary": {
+      "withSalary": 0,
+      "withoutSalary": 100
+    }
   }
 }

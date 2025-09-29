@@ -1,6 +1,6 @@
 import { ExternalJob, JobSearchParams, JobSearchResult } from './types';
-import { searchLinkedInJobs } from './linkedin';
-import { searchUpworkJobs } from './upwork';
+import { LinkedInJobSource } from './linkedin';
+import { UpworkJobSource } from './upwork';
 
 export async function searchAllJobs(params: JobSearchParams): Promise<{
   jobs: ExternalJob[];
@@ -8,10 +8,27 @@ export async function searchAllJobs(params: JobSearchParams): Promise<{
 }> {
   try {
     // Run all job searches in parallel
-    const [linkedinResults, upworkResults] = await Promise.all([
-      searchLinkedInJobs(params),
-      searchUpworkJobs(params),
+    const linkedinSource = new LinkedInJobSource();
+    const upworkSource = new UpworkJobSource();
+    
+    const [linkedinJobs, upworkJobs] = await Promise.all([
+      linkedinSource.searchJobs(params.query, params.location),
+      upworkSource.searchJobs(params.query),
     ]);
+    
+    const linkedinResults: JobSearchResult = {
+      jobs: linkedinJobs,
+      total: linkedinJobs.length,
+      hasMore: false,
+      source: 'linkedin'
+    };
+    
+    const upworkResults: JobSearchResult = {
+      jobs: upworkJobs,
+      total: upworkJobs.length,
+      hasMore: false,
+      source: 'upwork'
+    };
 
     // Combine all jobs
     const allJobs = [

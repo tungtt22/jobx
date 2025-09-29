@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16 items-center">
           <div className="flex items-center">
             <Link href="/" className="flex items-center mr-8">
-              <span className="text-xl font-bold text-blue-700">JobX</span>
+              <span className="text-xl font-bold text-blue-700">JobX.vn</span>
             </Link>
             <div className="hidden sm:flex sm:space-x-8">
               {navLinks.map((link) => (

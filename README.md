@@ -1,4 +1,4 @@
-# JobX
+# JobX.vn
 
 A job portal application built with Next.js and MongoDB.
 
@@ -7,11 +7,11 @@ A job portal application built with Next.js and MongoDB.
 1. Create a `.env.local` file in the root directory
 2. Add your MongoDB connection string:
    ```
-   MONGODB_URI=mongodb://localhost:27017/jobx
+   MONGODB_URI=mongodb://localhost:27017/jobxvn
    ```
    For production, use MongoDB Atlas connection string:
    ```
-   MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/jobx?retryWrites=true&w=majority
+   MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/jobxvn?retryWrites=true&w=majority
    ```
 
 ## Development

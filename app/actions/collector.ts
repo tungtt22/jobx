@@ -34,17 +34,25 @@ export interface CollectedJobs {
   };
 }
 
-// Utility Functions
-export async function loadCollectedJobs(): Promise<CollectedJobs> {
+async function ensureDataDir() {
   try {
     await fs.mkdir(DATA_DIR, { recursive: true });
+  } catch (error) {
+    console.error('Error creating data directory:', error);
+  }
+}
+
+export async function loadCollectedJobs(): Promise<CollectedJobs> {
+  try {
+    await ensureDataDir();
     const data = await fs.readFile(JOBS_FILE, 'utf-8');
     const parsed = JSON.parse(data);
-    // Convert dates back to Date objects
-    if (parsed.lastUpdated) parsed.lastUpdated = new Date(parsed.lastUpdated);
-    return parsed;
-  } catch (err) {
-    // If file doesn't exist, return empty structure
+    return {
+      ...parsed,
+      lastUpdated: new Date(parsed.lastUpdated)
+    };
+  } catch (error) {
+    console.error('Error loading collected jobs:', error);
     return {
       jobs: [],
       lastUpdated: new Date(),
@@ -59,53 +67,41 @@ export async function loadCollectedJobs(): Promise<CollectedJobs> {
 }
 
 export async function saveCollectedJobs(data: CollectedJobs): Promise<void> {
-  await fs.mkdir(DATA_DIR, { recursive: true });
-  await fs.writeFile(JOBS_FILE, JSON.stringify(data, null, 2), 'utf-8');
-}
-
-export async function getCollectionLog(): Promise<CollectionLog[]> {
   try {
-    await fs.mkdir(DATA_DIR, { recursive: true });
-    const data = await fs.readFile(COLLECTION_LOG_FILE, 'utf-8');
-    const logs = JSON.parse(data);
-    // Convert dates back to Date objects
-    return logs.map((log: CollectionLog) => ({
-      ...log,
-      lastRun: new Date(log.lastRun)
-    }));
-  } catch (err) {
-    return [];
+    await ensureDataDir();
+    await fs.writeFile(JOBS_FILE, JSON.stringify(data, null, 2));
+  } catch (error) {
+    console.error('Error saving collected jobs:', error);
+    throw error;
   }
 }
 
-async function logCollection(log: CollectionLog): Promise<void> {
-  const logs = await getCollectionLog();
-  logs.push({
-    ...log,
-    lastRun: log.lastRun instanceof Date ? log.lastRun : new Date(log.lastRun)
-  });
-  await fs.mkdir(DATA_DIR, { recursive: true });
-  await fs.writeFile(COLLECTION_LOG_FILE, JSON.stringify(logs, null, 2), 'utf-8');
+export async function saveCollectionLog(log: CollectionLog): Promise<void> {
+  try {
+    await ensureDataDir();
+    await fs.writeFile(COLLECTION_LOG_FILE, JSON.stringify(log, null, 2));
+  } catch (error) {
+    console.error('Error saving collection log:', error);
+  }
 }
 
 function removeDuplicates(jobs: Job[]): Job[] {
   const seen = new Map<string, Job>();
+  
   for (const job of jobs) {
-    const key = job.id || job.url;
-    if (!key) continue;
-    // If duplicate, keep the one with the latest date
-    if (seen.has(key)) {
+    const key = `${job.title}_${job.company}_${job.location}`.toLowerCase();
+    
+    if (!seen.has(key)) {
+      seen.set(key, job);
+    } else {
+      // Keep the more recent job
       const existing = seen.get(key)!;
-      if (
-        job.postedAt &&
-        (!existing.postedAt || new Date(job.postedAt) > new Date(existing.postedAt))
-      ) {
+      if (job.postedAt && (!existing.postedAt || job.postedAt > existing.postedAt)) {
         seen.set(key, job);
       }
-    } else {
-      seen.set(key, job);
     }
   }
+  
   return Array.from(seen.values());
 }
 
@@ -118,11 +114,8 @@ function calculateStats(jobs: Job[]): CollectedJobs['stats'] {
   };
 
   jobs.forEach(job => {
-    // Count by source
     stats.bySource[job.source] = (stats.bySource[job.source] || 0) + 1;
-    // Count by category
     stats.byCategory[job.category] = (stats.byCategory[job.category] || 0) + 1;
-    // Count by region
     stats.byRegion[job.region] = (stats.byRegion[job.region] || 0) + 1;
   });
 
@@ -203,14 +196,13 @@ export async function collectJobs(searchQueries: string[]) {
     stats: calculateStats(uniqueJobs)
   };
 
-  // Save everything
   await saveCollectedJobs(updatedData);
-  collectionLog.totalCollected = allNewJobs.length;
-  await logCollection(collectionLog);
+  await saveCollectionLog(collectionLog);
 
   return {
-    newJobs: allNewJobs.length,
+    success: true,
     totalJobs: uniqueJobs.length,
-    stats: updatedData.stats
+    newJobs: allNewJobs.length,
+    sources: collectionLog.sources
   };
 }

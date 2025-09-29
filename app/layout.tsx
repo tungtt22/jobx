@@ -6,7 +6,7 @@ import Sidebar from './components/layout/Sidebar';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'JobX - Job Search Aggregator',
+  title: 'JobX.vn - Job Search Aggregator',
   description: 'Find your next remote job opportunity',
 };
 

@@ -1,12 +1,13 @@
 {
-  "name": "backend",
+  "name": "jobxvn",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "merge:jobs": "node scripts/merge-all-jobs.js"
   },
   "dependencies": {
     "@octokit/rest": "^22.0.0",

@@ -20,7 +20,7 @@ export type DbUser = {
 };
 
 // Database and collections names
-const DB_NAME = 'jobx';
+const DB_NAME = 'jobxvn';
 const COLLECTIONS = {
   JOBS: 'jobs',
   USERS: 'users',
